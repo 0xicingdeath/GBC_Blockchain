@@ -1,0 +1,23 @@
+{
+  "name": "gbc-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ganache-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalieChin80/GBC_Blockchain.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalieChin80/GBC_Blockchain/issues"
+  },
+  "homepage": "https://github.com/NatalieChin80/GBC_Blockchain#readme"
+}
