@@ -7,4 +7,8 @@ function sayGoodbye(name) {
     return ("Bye: " + name);
 }
 
-module.exports = { sayHello, sayGoodbye }
+function sayHelloInFrench(name) {
+    return ("Bonjour " + name);
+}
+
+module.exports = { sayHello, sayGoodbye, sayHelloInFrench }
