@@ -1,11 +1,12 @@
 {
   "name": "gbc-blockchain",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ganache-cli"
+    "start": "ganache-cli",
+    "lint": "eslint --ext .js ./"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/NatalieChin80/GBC_Blockchain/issues"
   },
-  "homepage": "https://github.com/NatalieChin80/GBC_Blockchain#readme"
+  "homepage": "https://github.com/NatalieChin80/GBC_Blockchain#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
 }
