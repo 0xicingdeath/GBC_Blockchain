@@ -11,4 +11,8 @@ function sayHelloInFrench(name) {
     return ("Bonjour " + name);
 }
 
+function sayHelloWorld {
+    return "Hello World";
+}
+
 module.exports = { sayHello, sayGoodbye, sayHelloInFrench }
