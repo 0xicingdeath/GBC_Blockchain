@@ -1,7 +1,7 @@
 language: node_js
 
-node_js:
-- node_js
+node:
+- node
 - '4.9.1'
 - '6.16.0'
 
